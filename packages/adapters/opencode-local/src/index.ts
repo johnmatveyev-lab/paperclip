@@ -4,7 +4,17 @@ export const label = "OpenCode (local)";
 export const DEFAULT_OPENCODE_LOCAL_MODEL = "openai/gpt-5.2-codex";
 
 export const models: Array<{ id: string; label: string }> = [
+  { id: "google/gemini-3.1-pro-preview", label: "google/gemini-3.1-pro-preview" },
   { id: DEFAULT_OPENCODE_LOCAL_MODEL, label: DEFAULT_OPENCODE_LOCAL_MODEL },
+
+  { id: "google/gemini-3.1-pro-preview", label: "google/gemini-3.1-pro-preview" },
+  { id: "google/gemini-3-flash", label: "google/gemini-3-flash" },
+
+  { id: "google/gemini-3-flash-preview", label: "google/gemini-3-flash-preview" },
+  { id: "google/gemini-2.5-flash-lite", label: "google/gemini-2.5-flash-lite" },
+  { id: "google/gemini-flash-lite", label: "google/gemini-flash-lite" },
+  { id: "google/gemini-flash-latest", label: "google/gemini-flash-latest" },
+  { id: "google/gemini-2.5-pro", label: "google/gemini-2.5-pro" },
   { id: "openai/gpt-5.4", label: "openai/gpt-5.4" },
   { id: "openai/gpt-5.2", label: "openai/gpt-5.2" },
   { id: "openai/gpt-5.1-codex-max", label: "openai/gpt-5.1-codex-max" },
